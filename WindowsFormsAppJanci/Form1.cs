@@ -29,6 +29,7 @@ namespace WindowsFormsAppJanci
             Chat.Text += s + Environment.NewLine;
 
             tbMessage.Text = "";
+
         }
 
         
