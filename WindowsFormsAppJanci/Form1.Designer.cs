@@ -47,7 +47,7 @@
             // 
             // tbMessage
             // 
-            this.tbMessage.Location = new System.Drawing.Point(12, 340);
+            this.tbMessage.Location = new System.Drawing.Point(12, 339);
             this.tbMessage.Name = "tbMessage";
             this.tbMessage.Size = new System.Drawing.Size(158, 20);
             this.tbMessage.TabIndex = 1;
