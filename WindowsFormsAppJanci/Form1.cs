@@ -15,6 +15,22 @@ namespace WindowsFormsAppJanci
         public Form1()
         {
             InitializeComponent();
+
+            bSend.Tag = 1;
+            bSend2.Tag = 2;
         }
+
+        private void bSend_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+
+            string s = b.Tag + ": " + tbMessage.Text;
+
+            Chat.Text += s + Environment.NewLine;
+
+            tbMessage.Text = "";
+        }
+
+        
     }
 }
